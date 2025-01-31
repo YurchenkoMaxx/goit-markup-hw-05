@@ -526,7 +526,7 @@ height: 40px;
     width: 24px;
     height: 24px;
     background-color: #e7e9fc;
-        border: 1px;
+        border: 1px solid #0000001a;
         border-color: rgba(0, 0, 0, 0.1);
         border-radius: 50%;
         fill: #2e2f42;
@@ -580,7 +580,7 @@ font-weight: 500;
 }
 .modal-input:focus,
 .modal-input:hover {
-    
+
 }
 .modal-wrap {
     position: relative;
