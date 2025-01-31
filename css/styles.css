@@ -561,7 +561,7 @@ font-weight: 500;
     margin-bottom: 8px;
 }
 .modal-label {
-    display: inline;
+    display: block;
     margin-bottom: 4px;
     font-size: 12px;
     line-height: 1.17;
@@ -575,7 +575,12 @@ font-weight: 500;
     border-radius: 4px;
     padding-left: 38px;
     padding-right: 24px;
+    background-color: transparent;
 
+}
+.modal-input:focus,
+.modal-input:hover {
+    
 }
 .modal-wrap {
     position: relative;
