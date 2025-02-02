@@ -481,6 +481,7 @@ height: 40px;
     background-color: #31d0aa;
 }
 .footer-subscribe-title {
+    font-weight: 500;
     display: flex;
     font-size: 16px;
     line-height: 1.5;
@@ -488,10 +489,10 @@ height: 40px;
     color: #fff;
     margin-bottom: 16px;
 }
-.footer-subscribe-field {
+.footer-subscribe-form {
     display: flex;
-        align-items: center;
-        justify-content: center;
+    gap: 24px;
+
 }
 .footer-subscribe-input {
     border: 1px solid #fff;
@@ -529,13 +530,14 @@ height: 40px;
         align-items: center;
             justify-content: center;
             gap: 16px;
-
+        font-family: "Roboto", sans-serif;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         text-align: center;
         color: #fff;
         cursor: pointer;
+        border: none;
 }
 .footer-button-icons {
     fill: #fff;
